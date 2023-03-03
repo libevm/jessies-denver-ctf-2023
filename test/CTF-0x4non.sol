@@ -19,11 +19,7 @@ contract HHTokenTest is Test {
         address hacker = makeAddr("hacker");
         vm.startPrank(hacker);
 
-        token.transferOwnership(0, 0, 0, 0, hacker);
-
-        assertEq(token.owner(), hacker);
-        token.treasuryMint(hacker, 10 ether);
-        token.sellAll();
+    
         
         assertEq(address(token).balance, 0, "ser hacker, drain the contract to win");
     }
