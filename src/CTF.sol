@@ -1,3 +1,4 @@
+/*
 pragma solidity ^0.4.0;
 
 contract CTF {
@@ -23,3 +24,4 @@ contract CTF {
         return (msg.sender == address(owner));
     }
 }
+*/
