@@ -7,9 +7,19 @@ Run `forge test` until all tests (1) passes :3
 solc --bin-runtime src/CTF.sol4
 
 # Check if you've captured the flag
-forge test
+forge test --mc CTFLibevmTest
 ```
+---
 
+## Hacher House token
+
+Task: drain all the ether from the contract
+
+```bash
+
+# Check if you've captured the flag
+forge test --mc HHTokenTest
+```
 
 ---
 
