@@ -11,7 +11,7 @@ interface CTF {
     function flagCaptured() external returns (bool);
 }
 
-contract CTFTest is Test {
+contract CTFLibevmTest is Test {
     CTF ctf;
 
     function setUp() public {
