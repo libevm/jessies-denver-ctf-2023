@@ -12,3 +12,10 @@
 [submodule "lib/MultiVRGDAs"]
 	path = lib/MultiVRGDAs
 	url = https://github.com/saucepoint/MultiVRGDAs
+[submodule "lib/solady"]
+	path = lib/solady
+	url = https://github.com/vectorized/solady
+	branch = v0.0.78
+[submodule "lib/smol-huff-deployer"]
+	path = lib/smol-huff-deployer
+	url = https://github.com/philogy/smol-huff-deployer
