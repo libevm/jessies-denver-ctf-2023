@@ -1,1 +1,5 @@
-forge-std=lib/forge-std/src
+MultiVRGDAs/=lib/MultiVRGDAs/src/
+ds-test/=lib/MultiVRGDAs/lib/ds-test/src/
+forge-std/=lib/forge-std/src/
+openzeppelin-contracts/=lib/openzeppelin-contracts/
+solmate/=lib/solmate/src/
