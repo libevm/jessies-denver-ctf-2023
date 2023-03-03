@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 import "forge-std/Test.sol";
 import "openzeppelin-contracts/contracts/proxy/Clones.sol";
-import {Phoenixtto} from "../src/Phoenixtto.sol";
+import {Phoenixtto, Laboratory} from "../src/Phoenixtto.sol";
 
 contract PhoenixttoTest is Test {
     Laboratory lab;
