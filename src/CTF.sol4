@@ -1,9 +1,8 @@
-/*
 pragma solidity ^0.4.0;
 
 contract CTF {
-    uint256 public ownerSlot = uint256(sha256("jessies.hackerhouse.owner"));
-    uint256[] public myArray;
+    uint256[] myArray;
+    uint256 ownerSlot = uint256(sha256("jessies.hackerhouse.owner"));
 
     function write(uint256 i, uint256 v) public {
         myArray[i] = v;
@@ -21,7 +20,6 @@ contract CTF {
             owner := sload(slot)
         }
 
-        return (msg.sender == address(owner));
+        return address(owner) == msg.sender;
     }
 }
-*/
